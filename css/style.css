@@ -327,7 +327,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-two .top-header .social-icon li a:hover {color: #fff;}
 /*------------------------ Theme menu One --------------------*/
 .header-one .theme-menu-wrapper {position: relative;z-index: 99;margin-bottom: -42px;}
-.header-one .theme-menu-wrapper .bg-wrapper {background: #000f32;position: relative;padding-left: 25px;}
+.header-one .theme-menu-wrapper .bg-wrapper {background: #000f32;position: relative;padding-left: 25px;padding-right: 30px}
 .theme-menu-wrapper .right-widget ul li {display: inline-block;line-height: 75px;vertical-align: middle;}
 .theme-menu-wrapper .right-widget .social-icon li a {
   font-size: 15px;
@@ -464,7 +464,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-two .theme-menu-wrapper.fixed {background: #fff;}
 /*---------------------------- Theme Main Banner -------------------------*/
 #theme-main-banner {margin: 0 !important;}
-.camera_wrap {float:none;}
+.camera_wrap {float:none; }
 #theme-main-banner .camera_overlayer {
   content: '';
   position: absolute;
@@ -472,9 +472,13 @@ body .theme-button-one:hover {background:#000f32; }
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(0,26,27,0.10);
+  background: rgba(0,26,27,0.8);
 }
-#theme-main-banner .main-container {position: relative;}
+#theme-main-banner .theme-slide-image{
+  background: rgba(0,0,0,0.8);
+}
+#theme-main-banner .main-container {position: relative;   background: rgba(0,0,0,0.8);
+}
 #theme-main-banner .camera_caption {height: 100%;}
 #theme-main-banner .container {
   position: relative;
@@ -483,6 +487,7 @@ body .theme-button-one:hover {background:#000f32; }
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
 #theme-main-banner .camera_caption>div {
   background: transparent;
   position: absolute;
@@ -493,11 +498,12 @@ body .theme-button-one:hover {background:#000f32; }
   left: 0;
   padding: 0;
 }
-#theme-main-banner .camera_caption h1 {text-transform: uppercase;padding: 30px 0 35px 0;}
+#theme-main-banner .camera_caption h1 {text-transform: uppercase;padding: 30px 0 35px 0; color: white;}
 #theme-main-banner .camera_caption p {
   font-size: 26px;
   line-height: 35px;
-  color: #556382;
+
+  color: #9da7bb; 
   font-weight: 300;
 }
 #theme-main-banner .camera_caption .theme-button-one {background: #fff;}

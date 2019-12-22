@@ -52,7 +52,7 @@
   .header-one .top-header {padding-top: 25px;}
   .header-one .top-header .address-wrapper .address .icon {font-size: 30px;}
   .header-one .top-header .address-wrapper .address {padding: 0 20px 0 45px;margin-right: 0;}
-  .header-one .theme-menu-wrapper .bg-wrapper {padding-left:0;}
+  .header-one .theme-menu-wrapper .bg-wrapper {padding-left:0; padding-right: 5px;}
   .header-one .menu-wrapper,.header-two .menu-wrapper {position: absolute;width: 100%;left:0;top:0;z-index: 9;}
   .theme-menu-wrapper .right-widget ul li {line-height: 60px;}
   .theme-menu-wrapper .right-widget {position: relative;z-index: 99;}
@@ -173,7 +173,7 @@
   .partner-section h6 br {display: none;}
   .theme-footer-one .top-footer .title {margin-bottom: 15px;}
   .theme-footer-one .top-footer [class*="col-"],.theme-footer-two .top-footer [class*="col-"] {margin-bottom: 50px;}
-  .header-two .top-header,.header-two .top-header .social-icon {text-align: center;}
+  .header-two .top-header,.header-two .top-header .social-icon {text-align: center; }
   .header-two .top-header .left-widget li {margin: 0 10px;}
   .header-two .top-header .social-icon li {margin: 8px 5px 0 5px;}
   #polyglotLanguageSwitcher {margin: 0;}
