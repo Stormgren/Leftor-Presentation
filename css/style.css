@@ -588,7 +588,7 @@ body .theme-button-one:hover {background:#000f32; }
 }
 /*------------------ Feature Banner ---------------*/
 .feature-banner {
-  background: url(../images/home/2.jpg) no-repeat center center;
+  background: url(../images/home/workspace.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -605,6 +605,10 @@ body .theme-button-one:hover {background:#000f32; }
   color: #fff;
   padding: 0 100px;
   margin-bottom: 32px;
+}
+
+.feature-banner p{
+  color: white;
 }
 /*---------------- Service Style One --------------*/
 .service-style-one .single-service {
@@ -642,8 +646,8 @@ body .theme-button-one:hover {background:#000f32; }
 .service-style-one .wrapper {margin-top: 50px;}
 .service-style-one .contact-text {text-align: center;padding-top:35px;}
 .service-style-one .contact-text h4 {font-weight: normal;margin-bottom: 10px;}
-.service-style-one .contact-text h5 {font-weight: normal;display: inline-block;position: relative;}
-.service-style-one .contact-text h5:before {
+.service-style-one .contact-text .contact-highlight {font-weight: normal;display: inline-block;position: relative; color: blue}
+.service-style-one .contact-text .contact-highlight:before {
   content: '';
   width: 100%;
   height: 1px;
@@ -707,7 +711,7 @@ body .theme-button-one:hover {background:#000f32; }
 /*----------------------- Our Team -----------------*/
 .our-team .team-member {margin-top: 30px; text-align: center;}
 .our-team .wrapper {margin-top: 25px;}
-.our-team .team-member .image-box img {width: 100%;border-radius: 5px 5px 0 0;}
+.our-team .team-member .image-box img {height: 326px; width: 100%;border-radius: 5px 5px 0 0;}
 .our-team .team-member .image-box {position: relative;overflow: hidden;}
 .our-team .team-member .text {
   padding: 13px 0;
