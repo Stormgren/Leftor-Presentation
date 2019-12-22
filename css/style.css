@@ -956,6 +956,11 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-footer-one .bottom-footer ul li a:hover  {color: #fff;}
 /*---------------------- Theme footer Two ------------------*/
 .theme-footer-two {background: #001648;padding-top: 75px;}
+.theme-footer-two .top-footer .container .logo .leftor-logo {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 25px;
+}
 .theme-footer-two .logo-widget p {
   font-size: 17px;
   line-height: 25px;
