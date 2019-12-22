@@ -1160,7 +1160,7 @@ body .theme-button-one:hover {background:#000f32; }
 .our-case.our-project .single-case-block {margin-bottom: 40px;}
 /*------------------- Faq Section -------------------*/
 .faq-section {
-  background: url(../images/home/12.jpg) no-repeat center center;
+  background: url(../images/home/workspace.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -1168,7 +1168,7 @@ body .theme-button-one:hover {background:#000f32; }
   margin-bottom: 285px;
 }
 .faq-section .overlay {
-  background: rgba(0,26,87,0.9);
+  background: rgb(0,26,87,0.9);
   padding: 95px 0 0 0;
   height: 570px;
 }
