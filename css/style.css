@@ -544,6 +544,10 @@ body .theme-button-one:hover {background:#000f32; }
   padding: 50px 16%;
   border-bottom: 4px solid transparent;
 }
+
+ .hosting-features{
+  padding-top: 20px;
+}
 .top-feature .main-content:hover {border-bottom-color: #001a57;}
 .top-feature .main-content img {margin: 0 auto;}
 .top-feature .main-content h4 {
