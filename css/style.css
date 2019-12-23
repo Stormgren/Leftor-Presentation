@@ -529,7 +529,8 @@ body .theme-button-one:hover {background:#000f32; }
   height: 7px;
   border-radius: 50%;
   border-width: 1px;
-  background: transparent;
+  background: white;
+  
 }
 #theme-main-banner .camera_pag .camera_pag_ul li span {
   height: 100%;
@@ -537,6 +538,7 @@ body .theme-button-one:hover {background:#000f32; }
   top:0;
   left:0;
   border-radius:50%;
+  color: white;
 }
 /*--------------------- Top Feature -------------------*/
 .top-feature .main-content {
@@ -1174,7 +1176,7 @@ body .theme-button-one:hover {background:#000f32; }
   background-attachment: fixed;
   background-color: #707d9e;
   height: 570px;
-  margin-bottom: 285px;
+  margin-bottom: 140px;
 }
 .faq-section .overlay {
   background: rgb(0,26,87,0.9);
@@ -1327,7 +1329,7 @@ body .theme-button-one:hover {background:#000f32; }
 .google-map-one {height: 300px;}
 /*---------------------- Theme Inner Banner -----------------*/
 .theme-inner-banner {
-  background: url(../images/home/inner-banner.jpg) no-repeat center center;
+  background: url(../images/home/workspace.jpg) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   background-color: #707d9e;
